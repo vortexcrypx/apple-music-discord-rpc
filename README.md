@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/logo.jpg" alt="Apple Music Discord RPC Logo" width="130" style="border-radius: 26px; box-shadow: 0 8px 32px rgba(250, 45, 72, 0.35);" />
+  <img src="assets/logo.png" alt="Apple Music Discord RPC Logo" width="130" style="border-radius: 26px; box-shadow: 0 8px 32px rgba(250, 45, 72, 0.35);" />
 
   # Apple Music Discord Rich Presence (RPC)
 
