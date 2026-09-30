@@ -4,10 +4,10 @@
 
   # Apple Music Discord Rich Presence (RPC)
 
-  **A lightweight, native Windows background app that brings Spotify-identical Discord Rich Presence to Apple Music.**
+  **A lightweight, native background app for Windows & macOS that brings Spotify-identical Discord Rich Presence to Apple Music.**
 
-  [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com)
-  [![Framework](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+  [![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://microsoft.com)
+  [![macOS](https://img.shields.io/badge/macOS-11.0%2B-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apple.com)
   [![Discord](https://img.shields.io/badge/Discord-Rich%20Presence-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
   [![Performance](https://img.shields.io/badge/CPU%20Usage-~0.0%25-brightgreen?style=for-the-badge&logo=speedtest&logoColor=white)](#performance--architecture)
   [![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
@@ -74,26 +74,21 @@
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- **Windows 10 (Build 19041+) or Windows 11**
-- **Apple Music for Windows** (preview or official release from the Microsoft Store)
-- **Discord Desktop App** (running locally)
-- [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) (only if running non-contained builds)
+### 🪟 Windows (10 / 11)
+1. Download **`AppleMusicDiscordRPC-Windows-x64.zip`** (or portable build) from [Releases](../../releases).
+2. Extract the `.zip` archive.
+3. Run `AppleMusicDiscordRPC.exe` (or `Start.bat`).
+4. Play any song on **Apple Music for Windows**—your presence appears immediately on Discord!
+5. **System Tray**: Access the settings window or quit anytime via the Apple Music icon in the Windows taskbar tray.
 
 ---
 
-### Quick Launch
-1. Download or clone this repository.
-2. Run `Start.bat` (or open `publish\AppleMusicDiscordRPC.exe`).
-3. Start playing any song on the **Apple Music** Windows app.
-4. Check your Discord profile—your live presence will appear instantly!
-
----
-
-### Control from Settings or System Tray
-- Click the **Tray Icon** in the bottom-right taskbar (notification chevron) to reopen the settings UI at any time.
-- Right-click the **Tray Icon** for quick toggles or immediate exit.
-- Toggle **Start with Windows** inside the app to automatically launch Apple Music RPC whenever you turn on your PC.
+### 🍎 macOS (11.0+ Big Sur, Monterey, Ventura, Sonoma, Sequoia)
+1. Download **`AppleMusicDiscordRPC-macOS.zip`** from [Releases](../../releases).
+2. Unzip and move `AppleMusicDiscordRPC.app` into your **Applications** folder.
+3. Open `AppleMusicDiscordRPC.app`.
+4. The app runs quietly as a **Menu Bar item** (🎵 in top menu bar).
+5. Click the menu bar icon to toggle Discord presence on/off or quit.
 
 ---
 
