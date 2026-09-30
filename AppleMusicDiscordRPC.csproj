@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>AppleMusicDiscordRPC</RootNamespace>
+    <AssemblyName>AppleMusicDiscordRPC</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+
+    <!-- Professional Windows Executable & Startup Metadata -->
+    <Version>1.0.0</Version>
+    <AssemblyTitle>Apple Music RPC</AssemblyTitle>
+    <Product>Apple Music Discord Rich Presence</Product>
+    <Description>Displays Apple Music playback in Discord with high-res artwork, live seekbar, and play button.</Description>
+    <Copyright>Copyright © 2026</Copyright>
+    <Company>Apple Music RPC</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="app_icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

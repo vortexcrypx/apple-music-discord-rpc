@@ -1,0 +1,23 @@
+# Build results
+bin/
+obj/
+publish/
+release_package/
+*.zip
+
+# Visual Studio / Rider / VS Code cache
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Windows thumbnail caches & desktop.ini
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# App logs
+*.log
